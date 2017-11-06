@@ -4,6 +4,13 @@
 	"name": "Web Api with SPA",
 	"identity": "GlenHallworth.WebApiWithSpa.CSharp",
 	"shortName": "WebApiWithSpa",
-	"guids": ["dc46e9be-12b0-43c5-ac94-5c7019d59196"],
+	"guids": [
+		"6F24F921-62E3-4730-ABFE-2164E875B51C",
+		"AE351779-3521-4DD5-9C3D-4E5D1B43B900",
+		"A0FA69FD-3BAB-429C-92EF-4CA805315B78",
+		"B68652C2-02BB-441A-A731-CC0A89947BBB",
+		"9A19103F-16F7-4668-BE54-9A1E7A4F7556",
+		"F150F5E6-0BC6-4597-B117-14C8C25FE15B"
+	],
 	"sourceName": "WebApiWithSpa"
 }
