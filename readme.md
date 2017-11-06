@@ -24,3 +24,12 @@ Getting Started
 - I don't know what SPA.
 - I don't know what authentication scheme.
 - I don't know what (or if) persistent data store. 
+
+#### Development
+Under \scripts
+ - install.ps1 - Install the template
+ - nuget-pack.ps1 - Packs up the template into nuget package.
+ - uninstall.ps1 - Uninstall the template
+ - list.ps1 - List installed templates
+ - resettheworld.ps1 - Resets templates back to default list.
+ 
