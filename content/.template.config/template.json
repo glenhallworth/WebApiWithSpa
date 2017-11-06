@@ -1,0 +1,9 @@
+{
+	"author": "Glen Hallworth",
+	"classifications": ["Custom Templates"],
+	"name": "Web Api with SPA",
+	"identity": "GlenHallworth.WebApiWithSpa.CSharp",
+	"shortName": "WebApiWithSpa",
+	"guids": ["dc46e9be-12b0-43c5-ac94-5c7019d59196"],
+	"sourceName": "WebApiWithSpa"
+}
