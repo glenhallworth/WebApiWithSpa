@@ -1,3 +1,3 @@
-. .$PSScriptRoot\config.ps1
+. ./$PSScriptRoot\config.ps1
 
 nuget pack "$TemplateRoot\WebApiWithSpa.nuspec"
