@@ -26,7 +26,7 @@ Getting Started
 - I don't know what persistent data store. 
 
 #### Typescript Contract
-The API project runs CodeGen project every compile to regenerate the contract. To change output location modify <WebsiteApiDir>.
+The API project runs CodeGen project every compile to regenerate the contract. To change output location modify &lt;WebsiteApiDir&gt;.
 
 ```
   <PropertyGroup>

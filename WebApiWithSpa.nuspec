@@ -5,7 +5,7 @@
     <version>0.1.0</version>
     <authors>Glen Hallworth</authors>
     <owners>Glen Hallworth</owners>
-    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <licenseUrl>https://github.com/glenhallworth/WebApiWithSpa/blob/master/Licence.txt</licenseUrl>
     <projectUrl>https://github.com/glenhallworth/WebApiWithSpa</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Web Api with SPA template for dotnet core 2.0</description>
