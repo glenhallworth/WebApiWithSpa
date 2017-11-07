@@ -15,7 +15,6 @@
   </metadata>
   <files>
     <file src="content\WebApiWithSpa\src\WebApiWithSpa.Api\**\*.*" target="content\WebApiWithSpa\src\WebApiWithSpa.Api" exclude="content\WebApiWithSpa\src\WebApiWithSpa.Api\bin\**\*.*;content\WebApiWithSpa\src\WebApiWithSpa.Api\obj\**\*.*" />
-    <file src="content\WebApiWithSpa\src\WebApiWithSpa.Api\wwwroot" target="content\WebApiWithSpa\src\WebApiWithSpa.Api\wwwroot" />
     <file src="content\WebApiWithSpa\src\WebApiWithSpa.CodeGen\**\*.*" target="content\WebApiWithSpa\src\WebApiWithSpa.CodeGen" exclude="content\WebApiWithSpa\src\WebApiWithSpa.CodeGen\bin\**\*.*;content\WebApiWithSpa\src\WebApiWithSpa.CodeGen\obj\**\*.*" />
     <file src="content\WebApiWithSpa\src\WebApiWithSpa.Domain\**\*.*" target="content\WebApiWithSpa\src\WebApiWithSpa.Domain" exclude="content\WebApiWithSpa\src\WebApiWithSpa.Domain\bin\**\*.*;content\WebApiWithSpa\src\WebApiWithSpa.Domain\obj\**\*.*" />
     <file src="content\WebApiWithSpa\src\WebApiWithSpa.UnitTests\**\*.*" target="content\WebApiWithSpa\src\WebApiWithSpa.UnitTests" exclude="content\WebApiWithSpa\src\WebApiWithSpa.UnitTests\bin\**\*.*;content\WebApiWithSpa\src\WebApiWithSpa.UnitTests\obj\**\*.*" />
