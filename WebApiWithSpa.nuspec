@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>WebApiWithSpa</id>
+    <id>WebApiWithSpa.Template.CSharp</id>
     <version>0.1.0</version>
     <authors>Glen Hallworth</authors>
     <owners>Glen Hallworth</owners>
