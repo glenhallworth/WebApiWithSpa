@@ -7,11 +7,11 @@ Getting Started
 -------------
 
 #### Install
-1. dotnet new -i webapiwithspa
-2. dotnet new webapiwithspa
+1. dotnet new -i WebApiWithSpa.Template.CSharp
+2. dotnet new WebApiWithSpa
 
 #### Uninstall
-1. dotnet new -u webapiwithspa
+1. dotnet new -u WebApiWithSpa.Template.CSharp
 
 #### Assumptions
 
