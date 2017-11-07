@@ -1,7 +1,7 @@
 Web Api With SPA Template
 ===================
 
-A dotnet core 2.0 template for Web API in C# designed for pairing with single page application. 
+A dotnet core 2.0 template for Web API in C# designed for pairing with single page application. A.K.A. The common toolkit for websites I build in order to hit the ground running faster.
 
 Getting Started
 -------------
@@ -23,7 +23,26 @@ Getting Started
 - I want (x)unit tests using [NSubstitute](http://nsubstitute.github.io/) for mocking and [Shoudly](https://github.com/shouldly/shouldly) for assertions. 
 - I don't know what SPA.
 - I don't know what authentication scheme.
-- I don't know what (or if) persistent data store. 
+- I don't know what persistent data store. 
+
+#### Typescript Contract
+The API project runs CodeGen project every compile to regenerate the contract. To change output location modify <WebsiteApiDir>.
+
+```
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <SourceRoot>../</SourceRoot>
+    <ApiDir>$(SourceRoot)WebApiWithSpa.Api/</ApiDir>
+    <CodegenDir>$(SourceRoot)WebApiWithSpa.CodeGen/</CodegenDir>
+    <WebsiteApiDir>$(SourceRoot)/website/src/api</WebsiteApiDir>
+  </PropertyGroup>
+
+  <!-- Run the codegen project after API build -->
+  <Target Name="Codegen Run" AfterTargets="Build">
+    <Exec Command="dotnet run &quot;$(TargetPath)&quot; &quot;$(WebsiteApiDir)&quot;" WorkingDirectory="$(CodegenDir)">
+    </Exec>
+  </Target>
+```
 
 #### Development
 Under \scripts
