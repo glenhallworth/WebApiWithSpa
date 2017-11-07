@@ -1,4 +1,4 @@
-. ./config.ps1
+. .$PSScriptRoot\config.ps1
 
 .$PSScriptRoot\nuget-pack
 
